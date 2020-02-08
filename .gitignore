@@ -1,0 +1,12 @@
+/*
+!.bashrc
+!.gitconfig
+!.gitignore
+!alp.yml
+!torb/
+torb/webapp/*
+!torb/webapp/go
+torb/webapp/go/vendor/
+torb/webapp/go/torb
+!torb/webapp/static
+!torb/webapp/env.sh
