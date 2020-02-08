@@ -29,3 +29,5 @@ alias pp='go tool pprof -png -output ~/pprof/pprof.png http://localhost:6060/deb
 alias pps='go tool pprof -png -output ~/pprof/pprof.png http://localhost:6060/debug/pprof/profile && slackcat -c 12yacropolisy -n pprof.png ~/pprof/pprof.png'
 stty stop undef
 
+alias deploy='/home/isucon/torb/webapp/go/scripts/deploy.sh'
+alias applog='sudo journalctl -f -u torb.go'
