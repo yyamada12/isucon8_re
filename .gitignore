@@ -10,3 +10,4 @@ torb/webapp/go/vendor/
 torb/webapp/go/torb
 !torb/webapp/static
 !torb/webapp/env.sh
+!etc/
